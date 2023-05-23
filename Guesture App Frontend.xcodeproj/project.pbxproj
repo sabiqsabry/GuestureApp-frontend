@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13EBE3372A0A771D00E306B6 /* Guesture_App_FrontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBE3362A0A771D00E306B6 /* Guesture_App_FrontendApp.swift */; };
+		13EBE3392A0A771D00E306B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBE3382A0A771D00E306B6 /* ContentView.swift */; };
+		13EBE33B2A0A771F00E306B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EBE33A2A0A771F00E306B6 /* Assets.xcassets */; };
+		13EBE33E2A0A771F00E306B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EBE33D2A0A771F00E306B6 /* Preview Assets.xcassets */; };
+		13EBE3482A0A771F00E306B6 /* Guesture_App_FrontendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBE3472A0A771F00E306B6 /* Guesture_App_FrontendTests.swift */; };
+		13EBE3522A0A771F00E306B6 /* Guesture_App_FrontendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBE3512A0A771F00E306B6 /* Guesture_App_FrontendUITests.swift */; };
+		13EBE3542A0A771F00E306B6 /* Guesture_App_FrontendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBE3532A0A771F00E306B6 /* Guesture_App_FrontendUITestsLaunchTests.swift */; };
+		13EBE3612A0A818800E306B6 /* welcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBE3602A0A818800E306B6 /* welcomeView.swift */; };
+		13EBE3632A0A830A00E306B6 /* processSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBE3622A0A830A00E306B6 /* processSelectView.swift */; };
+		13EBE3652A0A834900E306B6 /* accountCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EBE3642A0A834900E306B6 /* accountCreateView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13EBE3442A0A771F00E306B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13EBE32B2A0A771D00E306B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13EBE3322A0A771D00E306B6;
+			remoteInfo = "Guesture App Frontend";
+		};
+		13EBE34E2A0A771F00E306B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13EBE32B2A0A771D00E306B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13EBE3322A0A771D00E306B6;
+			remoteInfo = "Guesture App Frontend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13EBE3332A0A771D00E306B6 /* Guesture App Frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guesture App Frontend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EBE3362A0A771D00E306B6 /* Guesture_App_FrontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesture_App_FrontendApp.swift; sourceTree = "<group>"; };
+		13EBE3382A0A771D00E306B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13EBE33A2A0A771F00E306B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13EBE33D2A0A771F00E306B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13EBE3432A0A771F00E306B6 /* Guesture App FrontendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guesture App FrontendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EBE3472A0A771F00E306B6 /* Guesture_App_FrontendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesture_App_FrontendTests.swift; sourceTree = "<group>"; };
+		13EBE34D2A0A771F00E306B6 /* Guesture App FrontendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guesture App FrontendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EBE3512A0A771F00E306B6 /* Guesture_App_FrontendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesture_App_FrontendUITests.swift; sourceTree = "<group>"; };
+		13EBE3532A0A771F00E306B6 /* Guesture_App_FrontendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesture_App_FrontendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13EBE3602A0A818800E306B6 /* welcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeView.swift; sourceTree = "<group>"; };
+		13EBE3622A0A830A00E306B6 /* processSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = processSelectView.swift; sourceTree = "<group>"; };
+		13EBE3642A0A834900E306B6 /* accountCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountCreateView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13EBE3302A0A771D00E306B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EBE3402A0A771F00E306B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EBE34A2A0A771F00E306B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13EBE32A2A0A771D00E306B6 = {
+			isa = PBXGroup;
+			children = (
+				13EBE3352A0A771D00E306B6 /* Guesture App Frontend */,
+				13EBE3462A0A771F00E306B6 /* Guesture App FrontendTests */,
+				13EBE3502A0A771F00E306B6 /* Guesture App FrontendUITests */,
+				13EBE3342A0A771D00E306B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13EBE3342A0A771D00E306B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13EBE3332A0A771D00E306B6 /* Guesture App Frontend.app */,
+				13EBE3432A0A771F00E306B6 /* Guesture App FrontendTests.xctest */,
+				13EBE34D2A0A771F00E306B6 /* Guesture App FrontendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13EBE3352A0A771D00E306B6 /* Guesture App Frontend */ = {
+			isa = PBXGroup;
+			children = (
+				13EBE3362A0A771D00E306B6 /* Guesture_App_FrontendApp.swift */,
+				13EBE3382A0A771D00E306B6 /* ContentView.swift */,
+				13EBE3602A0A818800E306B6 /* welcomeView.swift */,
+				13EBE3622A0A830A00E306B6 /* processSelectView.swift */,
+				13EBE3642A0A834900E306B6 /* accountCreateView.swift */,
+				13EBE33A2A0A771F00E306B6 /* Assets.xcassets */,
+				13EBE33C2A0A771F00E306B6 /* Preview Content */,
+			);
+			path = "Guesture App Frontend";
+			sourceTree = "<group>";
+		};
+		13EBE33C2A0A771F00E306B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13EBE33D2A0A771F00E306B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13EBE3462A0A771F00E306B6 /* Guesture App FrontendTests */ = {
+			isa = PBXGroup;
+			children = (
+				13EBE3472A0A771F00E306B6 /* Guesture_App_FrontendTests.swift */,
+			);
+			path = "Guesture App FrontendTests";
+			sourceTree = "<group>";
+		};
+		13EBE3502A0A771F00E306B6 /* Guesture App FrontendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13EBE3512A0A771F00E306B6 /* Guesture_App_FrontendUITests.swift */,
+				13EBE3532A0A771F00E306B6 /* Guesture_App_FrontendUITestsLaunchTests.swift */,
+			);
+			path = "Guesture App FrontendUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13EBE3322A0A771D00E306B6 /* Guesture App Frontend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EBE3572A0A771F00E306B6 /* Build configuration list for PBXNativeTarget "Guesture App Frontend" */;
+			buildPhases = (
+				13EBE32F2A0A771D00E306B6 /* Sources */,
+				13EBE3302A0A771D00E306B6 /* Frameworks */,
+				13EBE3312A0A771D00E306B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guesture App Frontend";
+			productName = "Guesture App Frontend";
+			productReference = 13EBE3332A0A771D00E306B6 /* Guesture App Frontend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13EBE3422A0A771F00E306B6 /* Guesture App FrontendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EBE35A2A0A771F00E306B6 /* Build configuration list for PBXNativeTarget "Guesture App FrontendTests" */;
+			buildPhases = (
+				13EBE33F2A0A771F00E306B6 /* Sources */,
+				13EBE3402A0A771F00E306B6 /* Frameworks */,
+				13EBE3412A0A771F00E306B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13EBE3452A0A771F00E306B6 /* PBXTargetDependency */,
+			);
+			name = "Guesture App FrontendTests";
+			productName = "Guesture App FrontendTests";
+			productReference = 13EBE3432A0A771F00E306B6 /* Guesture App FrontendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13EBE34C2A0A771F00E306B6 /* Guesture App FrontendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EBE35D2A0A771F00E306B6 /* Build configuration list for PBXNativeTarget "Guesture App FrontendUITests" */;
+			buildPhases = (
+				13EBE3492A0A771F00E306B6 /* Sources */,
+				13EBE34A2A0A771F00E306B6 /* Frameworks */,
+				13EBE34B2A0A771F00E306B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13EBE34F2A0A771F00E306B6 /* PBXTargetDependency */,
+			);
+			name = "Guesture App FrontendUITests";
+			productName = "Guesture App FrontendUITests";
+			productReference = 13EBE34D2A0A771F00E306B6 /* Guesture App FrontendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13EBE32B2A0A771D00E306B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					13EBE3322A0A771D00E306B6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					13EBE3422A0A771F00E306B6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 13EBE3322A0A771D00E306B6;
+					};
+					13EBE34C2A0A771F00E306B6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 13EBE3322A0A771D00E306B6;
+					};
+				};
+			};
+			buildConfigurationList = 13EBE32E2A0A771D00E306B6 /* Build configuration list for PBXProject "Guesture App Frontend" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13EBE32A2A0A771D00E306B6;
+			productRefGroup = 13EBE3342A0A771D00E306B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13EBE3322A0A771D00E306B6 /* Guesture App Frontend */,
+				13EBE3422A0A771F00E306B6 /* Guesture App FrontendTests */,
+				13EBE34C2A0A771F00E306B6 /* Guesture App FrontendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13EBE3312A0A771D00E306B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EBE33E2A0A771F00E306B6 /* Preview Assets.xcassets in Resources */,
+				13EBE33B2A0A771F00E306B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EBE3412A0A771F00E306B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EBE34B2A0A771F00E306B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13EBE32F2A0A771D00E306B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EBE3632A0A830A00E306B6 /* processSelectView.swift in Sources */,
+				13EBE3392A0A771D00E306B6 /* ContentView.swift in Sources */,
+				13EBE3372A0A771D00E306B6 /* Guesture_App_FrontendApp.swift in Sources */,
+				13EBE3652A0A834900E306B6 /* accountCreateView.swift in Sources */,
+				13EBE3612A0A818800E306B6 /* welcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EBE33F2A0A771F00E306B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EBE3482A0A771F00E306B6 /* Guesture_App_FrontendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EBE3492A0A771F00E306B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EBE3542A0A771F00E306B6 /* Guesture_App_FrontendUITestsLaunchTests.swift in Sources */,
+				13EBE3522A0A771F00E306B6 /* Guesture_App_FrontendUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13EBE3452A0A771F00E306B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13EBE3322A0A771D00E306B6 /* Guesture App Frontend */;
+			targetProxy = 13EBE3442A0A771F00E306B6 /* PBXContainerItemProxy */;
+		};
+		13EBE34F2A0A771F00E306B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13EBE3322A0A771D00E306B6 /* Guesture App Frontend */;
+			targetProxy = 13EBE34E2A0A771F00E306B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13EBE3552A0A771F00E306B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13EBE3562A0A771F00E306B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13EBE3582A0A771F00E306B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guesture App Frontend/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabiqsabry.com.Guesture-App-Frontend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13EBE3592A0A771F00E306B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guesture App Frontend/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabiqsabry.com.Guesture-App-Frontend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13EBE35B2A0A771F00E306B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabiqsabry.com.Guesture-App-FrontendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guesture App Frontend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guesture App Frontend";
+			};
+			name = Debug;
+		};
+		13EBE35C2A0A771F00E306B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabiqsabry.com.Guesture-App-FrontendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guesture App Frontend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guesture App Frontend";
+			};
+			name = Release;
+		};
+		13EBE35E2A0A771F00E306B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabiqsabry.com.Guesture-App-FrontendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guesture App Frontend";
+			};
+			name = Debug;
+		};
+		13EBE35F2A0A771F00E306B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sabiqsabry.com.Guesture-App-FrontendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guesture App Frontend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13EBE32E2A0A771D00E306B6 /* Build configuration list for PBXProject "Guesture App Frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EBE3552A0A771F00E306B6 /* Debug */,
+				13EBE3562A0A771F00E306B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13EBE3572A0A771F00E306B6 /* Build configuration list for PBXNativeTarget "Guesture App Frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EBE3582A0A771F00E306B6 /* Debug */,
+				13EBE3592A0A771F00E306B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13EBE35A2A0A771F00E306B6 /* Build configuration list for PBXNativeTarget "Guesture App FrontendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EBE35B2A0A771F00E306B6 /* Debug */,
+				13EBE35C2A0A771F00E306B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13EBE35D2A0A771F00E306B6 /* Build configuration list for PBXNativeTarget "Guesture App FrontendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EBE35E2A0A771F00E306B6 /* Debug */,
+				13EBE35F2A0A771F00E306B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13EBE32B2A0A771D00E306B6 /* Project object */;
+}
